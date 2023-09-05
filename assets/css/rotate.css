@@ -1,0 +1,12 @@
+.r {
+
+	animation: rotation .1s infinite linear;
+	border-bottom-style: solid;
+	font-size: x-large;
+}
+
+@keyframes rotation{
+	from{
+	transform: rotate(360deg);
+	}
+}
